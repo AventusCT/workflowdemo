@@ -79,3 +79,18 @@
 }
 
 .overflow-hidden { overflow: hidden; }
+
+/* Support page */
+.support-mr-2 {
+  margin-right: 1rem;
+}
+
+.support-ticket-item {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.support-ticket-item:hover {
+  background-color: #f5f5f5;
+  transform: scale(1.02);
+}
