@@ -7,12 +7,12 @@
  */
 
 .site-header {
-  background-color: rgba(0, 0, 0, .85);
+  background-color: red;
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #999;
+  color: #fff;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
@@ -30,7 +30,7 @@
   bottom: -30%;
   width: 300px;
   height: 540px;
-  background-color: #333;
+  background-color: black;
   border-radius: 21px;
   -webkit-transform: rotate(30deg);
   transform: rotate(30deg);
@@ -43,7 +43,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-color: rgba(255, 255, 255, .1);
+  background-color: #fff;
   border-radius: 5px;
 }
 
@@ -52,7 +52,7 @@
   right: auto;
   bottom: 0;
   left: 5%;
-  background-color: #e5e5e5;
+  background-color: #000;
 }
 
 
